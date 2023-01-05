@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-image: url(./images/donation5.jpg), linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+    background-blend-mode: multiply;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner-description{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 320px;
+    
+}
+
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.description{
+    padding: 25px 0;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.btn-primary{
+    font-size: 18px;
+    font-weight: 450;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(11, 158, 11);
+    color: white;
+}
+
