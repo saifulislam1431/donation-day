@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400;500;700&display=swap');
 
 *{
     margin: 0;
@@ -42,6 +43,13 @@
     border: none;
     background-color: rgb(11, 158, 11);
     color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: whitesmoke;
+    border: 1px solid rgb(11, 158, 11);
+    color: rgb(11, 158, 11);
 }
 
 /* Donate today */
@@ -190,7 +198,7 @@ input::placeholder{
 
 input[type="email"]{
     width: 300px;
-    padding: 17px;
+    padding: 15.5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
@@ -205,7 +213,6 @@ input::placeholder{
 
 .btn-secondary{
     width: 150px;
-
     padding: 13px;
     border: none;
     font-size: 18px;
@@ -213,18 +220,43 @@ input::placeholder{
     background-color: rgb(11,158,11);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    cursor: pointer;
 
 }
 
+.btn-secondary:hover{
+    border: 1px solid rgb(11, 158, 11);
+    background-color: darkolivegreen;
+    color: rgb(11, 158, 11);
+}
+
 .subscribe{
-    background-color: antiquewhite;
+    background-color: darkolivegreen;
     height: 150px;
     width: 650px;
-    padding-top: 58px;
+    padding-top: 54px;
     margin: 0 auto;
     border-radius: 10px;
 }
 
+/* Footer */
+
+.footer{
+    background-color: black;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.footer-description{
+    text-align: center;
+    color: aliceblue;
+}
+
+.footer-title{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 5px;
+    color: rgb(11, 158, 11);
+}
 
 
 
