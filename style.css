@@ -59,6 +59,7 @@
 .section-description{
     color: rgb(100, 95, 95);
     padding: 20px 0;
+    margin-bottom: 10px;
 }
 
 .donate-amount{
@@ -166,7 +167,7 @@ input::placeholder{
 
 .support{
     height: 380px;
-    width: 400px;
+    width: 380px;
     border-radius: 10px;
 }
 
@@ -178,6 +179,51 @@ input::placeholder{
     justify-content: center;
 }
 
+/* subscribe */
+
+.my-update{
+   
+
+    text-align: center;
+    font-weight: 500;
+}
+
+input[type="email"]{
+    width: 300px;
+    padding: 17px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    background-color: rgb(224, 234, 238);
+    
+}
+
+input::placeholder{
+    color: rgb(143, 140, 140);
+    font-weight: 700;
+}
+
+.btn-secondary{
+    width: 150px;
+
+    padding: 13px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(11,158,11);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.subscribe{
+    background-color: antiquewhite;
+    height: 150px;
+    width: 650px;
+    padding-top: 58px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
 
 
 
